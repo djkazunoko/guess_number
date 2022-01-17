@@ -16,10 +16,19 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = '正解！🎉';
     document.querySelector('.secretNumber').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
-    
+
   // 入力された数字が正解より大きい時
   } else if (inputNumber > secretNumber) {
-  
+    if (score > 1) {
+      document.querySelector('.message').textContent = 'もっと小さいよ📉😏';
+      score--;
+      document.querySelector('.score').textContent = score; 
+    } else {
+      document.querySelector('.message').textContent = 'ゲームオーバー🤪';
+      document.querySelector('.score').textContent = 0;
+      document.querySelector('body').style.backgroundColor = '#DC3544';
+    }
+    
   // 入力された数字が正解より小さい時
   } else if (inputNumber < secretNumber) {
   
