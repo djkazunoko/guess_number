@@ -9,7 +9,8 @@ document.querySelector('.check').addEventListener('click', function () {
  
   // 入力されていない時
   if (!inputNumber) {
- 
+    document.querySelector('.message').textContent = '数字を入力してね！';
+    
   // 正解の時
   } else if (inputNumber === secretNumber) {
   
