@@ -7,4 +7,17 @@ let highscore = 0;
 document.querySelector('.check').addEventListener('click', function () {
   const inputNumber = Number(document.querySelector('.inputNumber').value);
  
+  // 入力されていない時
+  if (!inputNumber) {
+ 
+  // 正解の時
+  } else if (inputNumber === secretNumber) {
+  
+  // 入力された数字が正解より大きい時
+  } else if (inputNumber > secretNumber) {
+  
+  // 入力された数字が正解より小さい時
+  } else if (inputNumber < secretNumber) {
+  
+  }
 });
