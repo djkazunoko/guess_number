@@ -42,3 +42,22 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 });
+
+document.querySelector('.reset').addEventListener('click', function() {
+  // スコアのリセット
+  score = 20;
+  document.querySelector('.score').textContent = score;
+ 
+  // シークレットナンバーのリセット
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  document.querySelector('.secretNumber').textContent = '?';
+ 
+  // メッセージのリセット
+  document.querySelector('.message').textContent = 'ドキドキ...';
+ 
+  // 入力欄のリセット
+  document.querySelector('.inputNumber').value = '';
+ 
+  // 背景色のリセット
+  document.querySelector('body').style.backgroundColor = '#222';
+});
