@@ -17,6 +17,11 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.secretNumber').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
 
+    if (score > highscore) {
+      highscore = score;
+      document.querySelector('.highscore').textContent = highscore;
+    }
+
   // 入力された数字が正解より大きい時
   } else if (inputNumber > secretNumber) {
     if (score > 1) {
