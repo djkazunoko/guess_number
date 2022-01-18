@@ -14,7 +14,7 @@ https://kazunoko1606.github.io/guess_number/
 
 ## Note
 
-starterフォルダから必要なファイルをダウンロードできます。
+- starterフォルダから必要なファイルをダウンロードできます。
 
-以下で「数字当てゲーム」の作り方を解説しています。  
+- 以下で「数字当てゲーム」の作り方を解説しています。  
 https://ama-d-blog.com/javascript-simplegame-development/
