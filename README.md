@@ -2,6 +2,8 @@
 
 「数字当てゲーム」を作ってJavaScriptの基礎を学ぼう！
 
+![1](https://user-images.githubusercontent.com/65595901/149914218-23cacec4-1dd0-4992-8330-145e26f3c777.png)
+
 ## Demo
 
 https://kazunoko1606.github.io/guess_number/
