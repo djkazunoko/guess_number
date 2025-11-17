@@ -6,7 +6,7 @@
 
 ## Demo
 
-https://kazunoko1606.github.io/guess_number/
+https://djkazunoko.github.io/guess_number/
 
 ## Description
 
@@ -19,4 +19,4 @@ https://kazunoko1606.github.io/guess_number/
 - starterフォルダから必要なファイルをダウンロードできます。
 
 - 以下で「数字当てゲーム」の作り方を解説しています。  
-https://ama-d-blog.com/javascript-simplegame-development/
+https://ama-blog.com/41/
